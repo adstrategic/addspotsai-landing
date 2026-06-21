@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0D1F3C"/>
+      <stop offset="100%" stop-color="#050D1A"/>
+    </radialGradient>
+    <radialGradient id="glowCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4ECDC4" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#4ECDC4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="50" fill="url(#bg)"/>
+
+  <!-- Glow effect -->
+  <circle cx="50" cy="50" r="38" fill="url(#glowCenter)"/>
+
+  <!-- Outer ring -->
+  <circle cx="50" cy="50" r="34" fill="none" stroke="#4ECDC4" stroke-width="3" opacity="0.9"/>
+
+  <!-- Inner ring -->
+  <circle cx="50" cy="50" r="24" fill="none" stroke="#4ECDC4" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Center dot -->
+  <circle cx="50" cy="50" r="5" fill="#4ECDC4" opacity="0.9"/>
+
+  <!-- Radar/wheel segments (like the AddSpot icon O) -->
+  <!-- Top segment -->
+  <path d="M50 16 A34 34 0 0 1 74 26 L65 35 A24 24 0 0 0 50 26 Z" fill="#4ECDC4" opacity="0.85"/>
+  <!-- Right segment - gap -->
+  <path d="M74 26 A34 34 0 0 1 84 50 L74 50 A24 24 0 0 0 65 35 Z" fill="#FFFFFF" opacity="0.4"/>
+  <!-- Bottom-right segment -->
+  <path d="M84 50 A34 34 0 0 1 74 74 L65 65 A24 24 0 0 0 74 50 Z" fill="#4ECDC4" opacity="0.6"/>
+  <!-- Bottom segment - gap -->
+  <path d="M74 74 A34 34 0 0 1 50 84 L50 74 A24 24 0 0 0 65 65 Z" fill="#FFFFFF" opacity="0.25"/>
+  <!-- Left segments -->
+  <path d="M50 84 A34 34 0 0 1 26 74 L35 65 A24 24 0 0 0 50 74 Z" fill="#4ECDC4" opacity="0.5"/>
+  <path d="M26 74 A34 34 0 0 1 16 50 L26 50 A24 24 0 0 0 35 65 Z" fill="#FFFFFF" opacity="0.2"/>
+  <path d="M16 50 A34 34 0 0 1 26 26 L35 35 A24 24 0 0 0 26 50 Z" fill="#4ECDC4" opacity="0.7"/>
+  <path d="M26 26 A34 34 0 0 1 50 16 L50 26 A24 24 0 0 0 35 35 Z" fill="#FFFFFF" opacity="0.3"/>
+
+  <!-- Center bright dot -->
+  <circle cx="50" cy="50" r="3.5" fill="#FFFFFF" opacity="0.95"/>
+</svg>

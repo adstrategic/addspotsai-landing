@@ -1,0 +1,266 @@
+{
+  "seo": {
+    "homeTitle": "ADDSPOT | Sistema Operativo de Logística Interna y Control de Custodia Premium",
+    "homeDesc": "ADDSPOT transforma los servicios de Valet Parking con una línea de ensamblaje digital, cadena de custodia inquebrantable y blindaje legal.",
+    "contactTitle": "Contacto y Demo Gratis | ADDSPOT",
+    "contactDesc": "Ponte en contacto con nuestro equipo y descubre cómo ADDSPOT puede transformar tu operación de Valet Parking."
+  },
+  "navbar": {
+    "features": "Pilares Operativos",
+    "modules": "Roles del Sistema",
+    "howItWorks": "Ciclo de Vida",
+    "benefits": "Competencia",
+    "requestDemo": "Solicitar Demo",
+    "language": "EN"
+  },
+  "hero": {
+    "badge": "ADDSPOT — Valet OS AI Powered by Adstrategic",
+    "title1": "El Valet Parking Digital",
+    "titleAccent": "Cero Papel.",
+    "title2": "Entregas Rápidas.",
+    "subtitle": "Control total de llaves, registro fotográfico anti-demandas y tickets digitales. La plataforma que blinda tu operación logística.",
+    "ctaPrimary": "Solicitar Demo Gratuita",
+    "ctaSecondary": "Ver cómo funciona",
+    "videoPlaceholder": "VIDEO DE DEMOSTRACIÓN",
+    "slides": [
+      {
+        "label": "Dashboard operativo para la gerencia"
+      },
+      {
+        "label": "Bandeja de valets en dispositivos móviles"
+      },
+      {
+        "label": "Tablero de custodia digital para llaveros"
+      },
+      {
+        "label": "Escaneo rápido y fotogrametría"
+      }
+    ]
+  },
+  "stats": {
+    "headline": "Métricas operativas procesadas en tiempo real",
+    "items": [
+      {
+        "label": "Cadena de Custodia Digital"
+      },
+      {
+        "label": "Tracking y Trazabilidad"
+      },
+      {
+        "label": "Modo Rush (Alto Volumen)"
+      },
+      {
+        "label": "Wallet Pass Inmediato"
+      }
+    ]
+  },
+  "features": {
+    "badge": "Pilares Operativos",
+    "title1": "Control total de tu operación,",
+    "title2": "desde el motor hasta la llave.",
+    "subtitle": "Diseñado específicamente para resolver los problemas logísticos de hoteles de lujo, restaurantes premium y operadores masivos.",
+    "f1Title": "Blindaje Anti-Demandas (Fotos 360°)",
+    "f1Desc": "Tus valets deben tomar 4 fotos obligatorias al recibir el auto y otra al estacionarlo. Si un cliente reclama un rayón previo, tienes la prueba visual en segundos con hora exacta.",
+    "f2Title": "Auditoría Financiera en Vivo",
+    "f2Desc": "Olvídate del robo hormiga. Visualiza en tiempo real cada auto cobrado, el flujo de caja y el rendimiento de cada empleado desde tu panel de administrador.",
+    "f3Title": "Seguridad de Campo",
+    "f3Desc": "Botón \"Finalizar Turno\" aislado y bloqueado si el usuario posee llaves o autos bajo su custodia. Nadie sale sin entregar todo.",
+    "f4Title": "Arquitectura Offline-First",
+    "f4Desc": "Diseñada para sótanos de concreto donde se pierde el internet. Sigue operando y sincroniza al recuperar señal.",
+    "f5Title": "Doble Validación Fotográfica",
+    "f5Desc": "Captura visual en Check-in (daños) y Spot Select (confirmación visual de la plaza donde descansa el auto).",
+    "f6Title": "Pases Digitales de Lujo",
+    "f6Desc": "Envío instantáneo de un Wallet Pass (Apple/Google) al celular del cliente, agilizando solicitudes y pagos."
+  },
+  "problems": {
+    "badge": "El Status Quo",
+    "title1": "El valet tradicional te está",
+    "title2": "costando dinero y clientes.",
+    "subtitle": "En un mercado donde dominan el papel y la falta de control, ADDSPOT introduce orden absoluto y rastreabilidad.",
+    "cta": "Cambiar el Status Quo →",
+    "items": [
+      "💸 Fugas de Ingresos: ¿Sabes realmente cuántos autos entraron hoy y cuántas propinas se generaron?",
+      "🚗 Demandas Injustas: Clientes reclamando golpes y rayones que su auto ya tenía antes de llegar. Sin pruebas, tú pagas.",
+      "🔑 Caos en la Caseta: \"¿Quién tiene la llave del Mercedes?\". Minutos perdidos buscando llaves colgadas en el gancho equivocado.",
+      "🎫 Tickets Perdidos: Clientes molestos esperando en la puerta porque perdieron su papelito."
+    ]
+  },
+  "howItWorks": {
+    "badge": "Flujo de Eventos",
+    "title1": "Una orquestación perfecta.",
+    "title2": "Así fluye tu parqueadero en horas pico:",
+    "subtitle": "Una orquestación perfecta desde la llegada del auto hasta que el cliente sale por la puerta principal.",
+    "steps": [
+      {
+        "title": "Ingreso Rápido (Cero Fricción)",
+        "desc": "El cajero registra el auto. El valet toma las fotos de rigor. El cliente recibe su ticket VIP en su celular al instante.",
+        "tag": "1. Check-in"
+      },
+      {
+        "title": "Custodia y Rastreo GPS",
+        "desc": "El valet conduce al punto exacto, el sistema cronometra el tiempo. Estaciona, toma foto y entrega la llave física al Llavero, quien la asegura en el sistema.",
+        "tag": "2. En Reposo"
+      },
+      {
+        "title": "Salida Automatizada",
+        "desc": "El cliente pide su auto desde su móvil. El Llavero libera la llave digitalmente, el valet ubica el auto sin dudar, lo entrega, escanea el QR del cliente y registra el pago. Todo en tiempo récord.",
+        "tag": "3. Egreso"
+      }
+    ]
+  },
+  "benefits": {
+    "badge": "La Competencia",
+    "title1": "La competencia se queda en papel.",
+    "title2": "ADDSPOT domina la operación.",
+    "subtitle": "Mientras otras plataformas intentan digitalizar el valet con herramientas genéricas, nosotros construimos un SO diseñado desde el asfalto. Analiza la diferencia:",
+    "table": {
+      "headers": [
+        "Característica",
+        "Apps Genéricas",
+        "Competencia",
+        "ADDSPOT"
+      ],
+      "rows": [
+        [
+          "Enfoque del Negocio",
+          "Gestión de oficina",
+          "Estacionamiento general",
+          "Logística Operativa"
+        ],
+        [
+          "Custodia de Llaves",
+          "Inexistente",
+          "Manual / Descentralizada",
+          "Tablero Digital (Llavero)"
+        ],
+        [
+          "Blindaje Legal",
+          "Ninguno",
+          "Básico",
+          "Obligatorio (Check-in + Spot)"
+        ],
+        [
+          "Arquitectura",
+          "Solo online (falla en sótanos)",
+          "Síncrona (lenta)",
+          "Robusta Offline-First"
+        ],
+        [
+          "UX Operativa",
+          "Compleja",
+          "Sobrecargada",
+          "Premium / A una mano"
+        ]
+      ]
+    },
+    "contrast": [
+      {
+        "title": "1. Vs \"Apps de Oficina\" (Wayleadr, Ronspot)",
+        "problem": "El problema: Nacieron para reservar escritorios. El flujo es lento y carecen del concepto de \"llave\" y el \"viaje\".",
+        "solution": "La diferencia ADDSPOT: Manejamos activos en movimiento. Nuestro flujo recorta tiempos de entrega directamente en la calle."
+      },
+      {
+        "title": "2. Vs \"Competidores Tradicionales\" (FlashValet, SMS Valet)",
+        "problem": "El problema: Actúan como libretas digitales. Los valets esconden las llaves en cualquier lado con cero protocolo de auditoría física.",
+        "solution": "La diferencia ADDSPOT: Rol de Llavero integrado. Sin entrega digital significa alertas instantáneas. Eliminamos el error humano por diseño."
+      },
+      {
+        "title": "3. El Talón de Aquiles: Conectividad",
+        "problem": "El problema: Dependen de 4G/5G perfecto. En sótanos o estructuras de concreto, sus apps simplemente dejan de cargar.",
+        "solution": "La diferencia ADDSPOT: Arquitectura Offline-First. Todo se guarda localmente y se sincroniza al instante al salir. Operación ininterrumpida."
+      }
+    ],
+    "ctaText": "La diferencia entre ADDSPOT y el resto es que no vendemos software; vendemos el control total de tu estacionamiento. ¿Sigues usando herramientas que estorban o quieres una que trabaje para ti?",
+    "ctaButton": "Solicitar Demo Privada"
+  },
+  "showcase": {
+    "badge": "Ecosistema de Roles",
+    "title1": "Diseñado para optimizar",
+    "title2": "el rendimiento en la calle",
+    "subtitle": "El software se segmenta en perfiles especializados donde cada usuario ve únicamente las herramientas necesarias para su labor.",
+    "h1Title": "💳 El Cajero",
+    "h1Desc": "Director de orquesta. Controla accesos, despacha tareas y activa el Modo Rush.",
+    "h2Title": "🚗 El Valet",
+    "h2Desc": "Brazo ejecutor de campo. Layout mobile-first con Check-in fotográfico y Spot Select.",
+    "h3Title": "🔑 El Llavero",
+    "h3Desc": "Custodio de llaves. Controla el Digital Key Board y Hand-off de Entrada/Salida.",
+    "h4Title": "⚡ El Rampero",
+    "h4Desc": "Absorbe autos en fila hacia rampas temporales para mitigar la congestión vial.",
+    "h5Title": "👑 El Administrador",
+    "h5Desc": "Gerencia general con Dashboard en vivo de autos, propinas y tiempos.",
+    "cta": "Explorar la plataforma →"
+  },
+  "ctaBanner": {
+    "eyebrow": "Transformación Total",
+    "title1": "Deja atrás el papel y el radio.",
+    "title2": "Eleva el prestigio de tu operación.",
+    "subtitle": "Solicita una demostración y descubre por qué hoteles y restaurantes premium están migrando a ADDSPOT.",
+    "ctaPrimary": "Solicitar Demostración"
+  },
+  "faq": {
+    "badge": "Preguntas Frecuentes",
+    "title1": "Resolvemos tus dudas",
+    "title2": "sobre ADDSPOT",
+    "subtitle": "Todo lo que necesitas saber sobre la implementación y operación diaria.",
+    "items": [
+      {
+        "question": "¿Qué hardware necesito para usar ADDSPOT?",
+        "answer": "Solo necesitas teléfonos inteligentes estándar para tus valets y una tablet o computadora para tu administrador y llavero. Al ser basado en la nube, no requiere servidores costosos."
+      },
+      {
+        "question": "¿Qué pasa si un valet se queda sin internet en el sótano?",
+        "answer": "Nada se detiene. Nuestro sistema Offline-First guarda las fotos y ubicaciones en el dispositivo y las sincroniza automáticamente cuando recupera la señal LTE o Wi-Fi."
+      },
+      {
+        "question": "¿Es difícil capacitar a mis valets tradicionales?",
+        "answer": "En absoluto. La interfaz móvil tiene botones gigantes y obliga a seguir un paso a paso intuitivo (Check-in > Fotos > Manejar > Spot). En un par de horas, tu equipo estará operando al 100%."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "ADDSPOT: El Sistema Operativo Premium para Valet Parking y Control de Custodia Interna. AI Powered by Adstrategic.",
+    "col1": "Plataforma",
+    "col2": "Empresa",
+    "col3": "Legal",
+    "links": {
+      "features": "Pilares Operativos",
+      "modules": "Roles del Sistema",
+      "howItWorks": "Ciclo de Vida",
+      "benefits": "Competencia",
+      "about": "Adstrategic",
+      "contact": "Contacto",
+      "demo": "Solicitar Demo",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Uso"
+    },
+    "copyright1": "Todos los derechos reservados."
+  },
+  "contact": {
+    "back": "← Volver al inicio",
+    "title1": "Revoluciona tu",
+    "title2": "Valet Parking.",
+    "desc": "Completa el formulario y un especialista de ADDSPOT te mostrará cómo nuestra cadena de custodia digital puede proteger y optimizar tu negocio.",
+    "formTitle": "Solicita una Demo",
+    "nameLabel": "Nombre completo",
+    "namePh": "Ej. Nicolás Forero",
+    "companyLabel": "Hotel, Restaurante o Empresa",
+    "companyPh": "Nombre de tu establecimiento",
+    "emailLabel": "Correo electrónico",
+    "emailPh": "tucorreo@empresa.com",
+    "phoneLabel": "Teléfono / WhatsApp",
+    "phonePh": "+1 234 567 890",
+    "messageLabel": "¿Cuál es el volumen aproximado de autos por día?",
+    "messagePh": "Ej. Procesamos cerca de 400 autos diarios...",
+    "sending": "Enviando...",
+    "sent": "¡Solicitud Enviada!",
+    "submit": "Solicitar Demostración",
+    "success": "Gracias por tu interés en ADDSPOT. Nuestro equipo te contactará en breve.",
+    "errors": {
+      "name": "Por favor ingresa tu nombre completo.",
+      "company": "Por favor ingresa el nombre de tu hotel, restaurante o empresa.",
+      "email": "Por favor ingresa un correo electrónico válido.",
+      "phone": "Por favor ingresa un número de teléfono válido.",
+      "submit": "Algo salió mal. Intenta de nuevo o contáctanos directamente."
+    }
+  }
+}

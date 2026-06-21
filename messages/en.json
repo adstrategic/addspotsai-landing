@@ -1,0 +1,266 @@
+{
+  "seo": {
+    "homeTitle": "ADDSPOT | Premium Internal Logistics & Custody Control OS",
+    "homeDesc": "ADDSPOT transforms Valet Parking services with a digital assembly line, unbreakable chain of custody, and legal shielding.",
+    "contactTitle": "Contact & Free Demo | ADDSPOT",
+    "contactDesc": "Get in touch with our team and discover how ADDSPOT can transform your Valet Parking operation."
+  },
+  "navbar": {
+    "features": "Core Pillars",
+    "modules": "System Roles",
+    "howItWorks": "Lifecycle",
+    "benefits": "Competitors",
+    "requestDemo": "Request Demo",
+    "language": "ES"
+  },
+  "hero": {
+    "badge": "ADDSPOT — Valet OS AI Powered by Adstrategic",
+    "title1": "The Digital Valet OS",
+    "titleAccent": "Zero Paper.",
+    "title2": "Faster Deliveries.",
+    "subtitle": "Total key control, anti-lawsuit photographic records, and digital tickets. The platform that shields your logistics.",
+    "ctaPrimary": "Request Free Demo",
+    "ctaSecondary": "See how it works",
+    "videoPlaceholder": "DEMONSTRATION VIDEO",
+    "slides": [
+      {
+        "label": "Operational dashboard for management"
+      },
+      {
+        "label": "Mobile valet assignment inbox"
+      },
+      {
+        "label": "Digital custody board for keyholders"
+      },
+      {
+        "label": "Fast scanning & photogrammetry"
+      }
+    ]
+  },
+  "stats": {
+    "headline": "Operational metrics processed in real time",
+    "items": [
+      {
+        "label": "Digital Chain of Custody"
+      },
+      {
+        "label": "Tracking & Traceability"
+      },
+      {
+        "label": "Rush Mode (High Volume)"
+      },
+      {
+        "label": "Instant Wallet Pass"
+      }
+    ]
+  },
+  "features": {
+    "badge": "Core Pillars",
+    "title1": "Total control of your operation,",
+    "title2": "from the engine to the key.",
+    "subtitle": "Specifically designed to solve logistics problems for luxury hotels, premium restaurants, and massive events.",
+    "f1Title": "Anti-Lawsuit Shielding (360° Photos)",
+    "f1Desc": "Your valets must take 4 mandatory photos upon receiving the car and another when parking it. If a client claims a prior scratch, you have visual proof in seconds with exact time.",
+    "f2Title": "Live Financial Audit",
+    "f2Desc": "Forget about petty theft. Visualize in real-time every car charged, cash flow, and employee performance right from your admin panel.",
+    "f3Title": "Field Security",
+    "f3Desc": "Isolated \"End Shift\" button logically locked if the user holds keys or cars under their custody.",
+    "f4Title": "Offline-First Architecture",
+    "f4Desc": "Designed for concrete basements with no internet. Keeps operating and syncs when signal returns.",
+    "f5Title": "Dual Photo Validation",
+    "f5Desc": "Visual capture at Check-in (damages) and Spot Select (visual confirmation of the exact parking space).",
+    "f6Title": "Pases Digitales de Lujo",
+    "f6Desc": "Instant delivery of a Wallet Pass (Apple/Google) to the customer's phone, speeding up requests and payments."
+  },
+  "problems": {
+    "badge": "The Status Quo",
+    "title1": "Traditional valet is",
+    "title2": "costing you money & clients.",
+    "subtitle": "In a market dominated by paper and lack of control, ADDSPOT introduces absolute order and traceability.",
+    "cta": "Change the Status Quo →",
+    "items": [
+      "💸 Revenue Leaks: Do you really know how many cars entered today and how many tips were generated?",
+      "🚗 Unfair Lawsuits: Clients claiming bumps and scratches their car already had. Without proof, you pay.",
+      "🔑 Booth Chaos: \"Who has the Mercedes key?\". Minutes wasted looking for keys on the wrong hook.",
+      "🎫 Lost Tickets: Angry clients waiting at the door because they lost their little paper."
+    ]
+  },
+  "howItWorks": {
+    "badge": "Event Flow",
+    "title1": "A perfect orchestration.",
+    "title2": "How your lot flows in peak hours:",
+    "subtitle": "A perfect orchestration from the arrival of the car to the moment the customer drives away.",
+    "steps": [
+      {
+        "title": "Fast Entry (Zero Friction)",
+        "desc": "The cashier registers the car. The valet takes the standard photos. The client gets their VIP ticket on their phone instantly.",
+        "tag": "1. Check-in"
+      },
+      {
+        "title": "Custody & GPS Tracking",
+        "desc": "The valet drives to the exact spot, the system times it. Parks, takes a photo, and gives the physical key to the Keyholder, who secures it in the system.",
+        "tag": "2. At Rest"
+      },
+      {
+        "title": "Automated Exit",
+        "desc": "The client requests their car from their mobile. The Keyholder releases the key digitally, the valet locates the car without hesitation, delivers it, scans the QR, and logs the payment. All in record time.",
+        "tag": "3. Egress"
+      }
+    ]
+  },
+  "benefits": {
+    "badge": "The Competition",
+    "title1": "The competition stays on paper.",
+    "title2": "ADDSPOT dominates the operation.",
+    "subtitle": "While other platforms try to digitize the valet with generic tools, we have built an OS designed from the asphalt up. Analyze the difference:",
+    "table": {
+      "headers": [
+        "Feature",
+        "Generic Apps",
+        "Valet Competitors",
+        "ADDSPOT"
+      ],
+      "rows": [
+        [
+          "Business Focus",
+          "Office management",
+          "General parking",
+          "Operational Logistics"
+        ],
+        [
+          "Key Custody",
+          "Non-existent",
+          "Manual / Decentralized",
+          "Digital Board (Keyholder)"
+        ],
+        [
+          "Legal Shielding",
+          "None",
+          "Basic",
+          "Mandatory (Check-in + Spot)"
+        ],
+        [
+          "Architecture",
+          "Online-only (basement fail)",
+          "Synchronous (slow)",
+          "Robust Offline-First"
+        ],
+        [
+          "Operational UX",
+          "Complex",
+          "Overloaded",
+          "Premium / 1-handed"
+        ]
+      ]
+    },
+    "contrast": [
+      {
+        "title": "1. Vs \"Office Apps\" (Wayleadr, Ronspot)",
+        "problem": "The problem: Born to reserve desks. The workflow is slow and lacks the concept of a \"key\" and the \"journey\".",
+        "solution": "The ADDSPOT difference: We manage moving assets. Our flow cuts delivery times right on the street."
+      },
+      {
+        "title": "2. Vs \"Traditional Competitors\" (FlashValet, SMS Valet)",
+        "problem": "The problem: They act as digital notepads. Valets stash keys anywhere with zero physical audit protocol.",
+        "solution": "The ADDSPOT difference: Integrated Keyholder role. No digital hand-off means instant alerts. We eliminate human error by design."
+      },
+      {
+        "title": "3. The Achilles Heel: Connectivity",
+        "problem": "The problem: They rely on perfect 4G/5G. In basements or concrete structures, their apps simply stop loading.",
+        "solution": "The ADDSPOT difference: Offline-First Architecture. Everything is saved locally and syncs instantly upon exit. Uninterrupted operation."
+      }
+    ],
+    "ctaText": "The difference between ADDSPOT and the rest is that we don't sell software; we sell total control of your parking lot. Are you still using tools that get in the way or do you want one that works for you?",
+    "ctaButton": "Request a Private Demo"
+  },
+  "showcase": {
+    "badge": "Role Ecosystem",
+    "title1": "Designed to optimize",
+    "title2": "performance on the street",
+    "subtitle": "The software is segmented into specialized profiles where each user only sees the tools needed for their job.",
+    "h1Title": "💳 The Cashier",
+    "h1Desc": "The conductor. Controls access, dispatches tasks, and triggers Rush Mode.",
+    "h2Title": "🚗 The Valet",
+    "h2Desc": "Field executor. Mobile-first layout with photo Check-in and Spot Select.",
+    "h3Title": "🔑 The Keyholder",
+    "h3Desc": "Key guardian. Controls the Digital Key Board and Entry/Exit Hand-offs.",
+    "h4Title": "⚡ The Runner",
+    "h4Desc": "Absorbs queued cars into temporary ramps to mitigate traffic congestion.",
+    "h5Title": "👑 The Admin",
+    "h5Desc": "General management with live Dashboard of cars, tips, and times.",
+    "cta": "Explore the platform →"
+  },
+  "ctaBanner": {
+    "eyebrow": "Total Transformation",
+    "title1": "Leave the paper and radio behind.",
+    "title2": "Elevate your operation's prestige.",
+    "subtitle": "Request a demo and discover why premium hotels and restaurants are migrating to ADDSPOT.",
+    "ctaPrimary": "Request Demonstration"
+  },
+  "faq": {
+    "badge": "Frequently Asked Questions",
+    "title1": "We resolve your doubts",
+    "title2": "about ADDSPOT",
+    "subtitle": "Everything you need to know about the implementation and daily operation.",
+    "items": [
+      {
+        "question": "What hardware do I need to use ADDSPOT?",
+        "answer": "You only need standard smartphones for your valets and a tablet or computer for your admin and keyholder. Being cloud-based, it does not require expensive servers."
+      },
+      {
+        "question": "What happens if a valet loses internet in the basement?",
+        "answer": "Nothing stops. Our Offline-First system saves photos and locations on the device and syncs them automatically when LTE or Wi-Fi signal is restored."
+      },
+      {
+        "question": "Is it hard to train my traditional valets?",
+        "answer": "Not at all. The mobile interface has giant buttons and forces an intuitive step-by-step process (Check-in > Photos > Drive > Spot). In a couple of hours, your team will be operating at 100%."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "ADDSPOT: The Premium Operating System for Valet Parking and Internal Custody Control. AI Powered by Adstrategic.",
+    "col1": "Platform",
+    "col2": "Company",
+    "col3": "Legal",
+    "links": {
+      "features": "Core Pillars",
+      "modules": "System Roles",
+      "howItWorks": "Lifecycle",
+      "benefits": "Competitors",
+      "about": "Adstrategic",
+      "contact": "Contact",
+      "demo": "Request Demo",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    },
+    "copyright1": "All rights reserved."
+  },
+  "contact": {
+    "back": "← Back to home",
+    "title1": "Revolutionize your",
+    "title2": "Valet Parking.",
+    "desc": "Fill out the form and an ADDSPOT specialist will show you how our digital chain of custody can protect and optimize your business.",
+    "formTitle": "Request a Demo",
+    "nameLabel": "Full Name",
+    "namePh": "e.g. Nicolas Forero",
+    "companyLabel": "Hotel, Restaurant or Company",
+    "companyPh": "Your establishment name",
+    "emailLabel": "Email address",
+    "emailPh": "youremail@company.com",
+    "phoneLabel": "Phone / WhatsApp",
+    "phonePh": "+1 234 567 890",
+    "messageLabel": "What is your approximate car volume per day?",
+    "messagePh": "e.g. We process around 400 cars daily...",
+    "sending": "Sending...",
+    "sent": "Request Sent!",
+    "submit": "Request Demonstration",
+    "success": "Thanks for your interest in ADDSPOT. Our team will contact you shortly.",
+    "errors": {
+      "name": "Please enter your full name.",
+      "company": "Please enter your hotel, restaurant, or company name.",
+      "email": "Please enter a valid email address.",
+      "phone": "Please enter a valid phone number.",
+      "submit": "Something went wrong. Please try again or contact us directly."
+    }
+  }
+}
