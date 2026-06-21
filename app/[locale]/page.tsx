@@ -26,13 +26,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: t("homeTitle"),
       description: t("homeDesc"),
-      images: ["/og-image.png"],
+      images: ["/og-image.jpg"],
     },
     twitter: {
       card: "summary_large_image",
       title: t("homeTitle"),
       description: t("homeDesc"),
-      images: ["/og-image.png"],
+      images: ["/og-image.jpg"],
     },
   }
 }
@@ -53,7 +53,7 @@ export default async function HomePage({ params }: Props) {
         <div className="relative z-[5] flex h-[120px] w-full items-center justify-center bg-brand-surface">
           <div className="absolute h-0.5 w-full max-w-[1000px] bg-gradient-to-r from-transparent via-brand-primary/80 to-transparent" />
           <div className="absolute h-full w-full max-w-[1000px]">
-            <div className="animate-drive-car absolute top-1/2 -translate-y-1/2">
+            <div className="absolute top-1/2 -translate-y-1/2 animate-drive-car">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="48"

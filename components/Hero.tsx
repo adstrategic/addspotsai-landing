@@ -12,7 +12,11 @@ function Hero() {
   const t = useTranslations("hero")
   const locale = useLocale()
   const [currentSlide, setCurrentSlide] = useState(0)
-  const slides = ["/hero-addspot-1.png", "/hero-addspot-2.png", "/hero-addspot-3.png"]
+  const slides = [
+    "/hero-addspot-1.jpg",
+    "/hero-addspot-2.jpg",
+    "/hero-addspot-3.jpg",
+  ]
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -106,7 +110,8 @@ function Hero() {
             key={src}
             className={cn(
               "absolute inset-0 scale-105 bg-cover bg-center bg-no-repeat opacity-0 transition-[opacity,transform] duration-[1500ms] ease-in-out",
-              index === currentSlide && "scale-100 opacity-100 duration-[10000ms]"
+              index === currentSlide &&
+                "scale-100 opacity-100 duration-[10000ms]"
             )}
             style={{ backgroundImage: `url(${src})` }}
           />
@@ -137,11 +142,11 @@ function Hero() {
 
           <h1
             ref={titleRef}
-            className="font-display mb-6 text-[clamp(2.6rem,6.5vw,5rem)] leading-[1.08] font-black tracking-[-0.04em] text-white drop-shadow-[0_4px_16px_rgba(15,23,42,0.6)] max-md:text-[clamp(2.2rem,8vw,3.5rem)]"
+            className="mb-6 font-display text-[clamp(2.6rem,6.5vw,5rem)] leading-[1.08] font-black tracking-[-0.04em] text-white drop-shadow-[0_4px_16px_rgba(15,23,42,0.6)] max-md:text-[clamp(2.2rem,8vw,3.5rem)]"
           >
             {t("title1")}
             <br />
-            <em className="not-italic text-brand-accent drop-shadow-[0_2px_8px_rgba(15,23,42,0.6),0_0_20px_rgba(56,189,248,0.4)]">
+            <em className="text-brand-accent not-italic drop-shadow-[0_2px_8px_rgba(15,23,42,0.6),0_0_20px_rgba(56,189,248,0.4)]">
               {t("titleAccent")}
             </em>
             <br />
@@ -159,12 +164,21 @@ function Hero() {
             ref={ctasRef}
             className="flex flex-wrap items-center justify-start gap-4 max-lg:justify-center max-md:w-full max-md:flex-col max-md:items-stretch"
           >
-            <Link href="/contact" className={cn(btnLime, "max-md:justify-center max-md:text-center")}>
+            <Link
+              href="/contact"
+              className={cn(
+                btnLime,
+                "max-md:justify-center max-md:text-center"
+              )}
+            >
               {t("ctaPrimary")}
             </Link>
             <a
               href={localeHash(locale, "/#como-funciona")}
-              className={cn(btnGhost, "max-md:justify-center max-md:text-center")}
+              className={cn(
+                btnGhost,
+                "max-md:justify-center max-md:text-center"
+              )}
             >
               {t("ctaSecondary")}
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
