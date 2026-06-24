@@ -9,6 +9,7 @@ import HowItWorks from "@/components/HowItWorks"
 import Benefits from "@/components/Benefits"
 import AppShowcase from "@/components/AppShowcase"
 import CTABanner from "@/components/CTABanner"
+import EasyVideo from "@/components/EasyVideo"
 import FAQ from "@/components/FAQ"
 import Footer from "@/components/Footer"
 
@@ -78,6 +79,7 @@ export default async function HomePage({ params }: Props) {
         <Benefits />
         <AppShowcase />
         <CTABanner />
+        <EasyVideo />
         <FAQ />
       </main>
       <Footer />

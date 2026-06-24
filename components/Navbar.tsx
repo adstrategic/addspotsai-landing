@@ -16,10 +16,11 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const navLinks = [
-    { label: t("features"), href: localeHash(locale, "/#caracteristicas") },
-    { label: t("howItWorks"), href: localeHash(locale, "/#como-funciona") },
-    { label: t("benefits"), href: localeHash(locale, "/#competencia") },
-    { label: t("modules"), href: localeHash(locale, "/#roles") },
+    { label: t("features"), href: "/#caracteristicas" },
+    { label: t("howItWorks"), href: "/#como-funciona" },
+    { label: t("benefits"), href: "/#competencia" },
+    { label: t("modules"), href: "/#roles" },
+    { label: t("presentation"), href: "/presentacion" },
   ]
 
   const toggleLanguage = () => {
@@ -44,9 +45,9 @@ function Navbar() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-1/2 z-[1000] h-[var(--nav-h)] w-full max-w-full -translate-x-1/2 border border-transparent bg-brand-dark transition-[max-width,top,height,border-radius,background-color,border-color,box-shadow] duration-[600ms] ease-[cubic-bezier(0.16,1,0.3,1)]",
+        "fixed top-0 left-1/2 z-[1000] h-[var(--nav-h)] w-full max-w-full -translate-x-1/2 border border-transparent bg-brand-dark transition-[width,max-width,top,height,border-radius,background-color,border-color,box-shadow] duration-[600ms] ease-[cubic-bezier(0.16,1,0.3,1)]",
         scrolled &&
-          "top-5 h-[60px] max-w-[900px] rounded-full border-white/10 bg-brand-dark/85 shadow-[0_20px_40px_rgba(0,0,0,0.4),inset_0_1px_1px_rgba(255,255,255,0.15)] backdrop-blur-xl"
+          "top-5 h-[60px] w-max max-w-[calc(100vw-2rem)] rounded-full border-white/10 bg-brand-dark/85 shadow-[0_20px_40px_rgba(0,0,0,0.4),inset_0_1px_1px_rgba(255,255,255,0.15)] backdrop-blur-xl"
       )}
     >
       <div
@@ -73,21 +74,21 @@ function Navbar() {
 
         <nav
           className={cn(
-            "ml-auto flex items-center gap-8 transition-[gap] duration-300 max-md:fixed max-md:top-full max-md:left-1/2 max-md:z-[999] max-md:-ml-[50vw] max-md:flex max-md:h-screen max-md:w-screen max-md:-translate-x-0 max-md:translate-x-[100vw] max-md:flex-col max-md:items-center max-md:justify-start max-md:gap-8 max-md:bg-brand-dark max-md:pt-12 max-md:text-[1.3rem] max-md:transition-transform max-md:duration-350 max-md:ease-[cubic-bezier(0.16,1,0.3,1)]",
+            "flex items-center gap-8 transition-[gap] duration-300 max-md:fixed max-md:top-full max-md:left-1/2 max-md:z-[999] max-md:-ml-[50vw] max-md:flex max-md:h-screen max-md:w-screen max-md:-translate-x-0 max-md:translate-x-[100vw] max-md:flex-col max-md:items-center max-md:justify-start max-md:gap-8 max-md:bg-brand-dark max-md:pt-12 max-md:text-[1.3rem] max-md:transition-transform max-md:duration-350 max-md:ease-[cubic-bezier(0.16,1,0.3,1)]",
             menuOpen && "max-md:translate-x-0",
             scrolled && "gap-6"
           )}
           aria-label="Main navigation"
         >
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.href}
-              href={link.href}
+              href={link.href as any}
               className="text-[0.9rem] font-normal text-white/80 transition-colors hover:text-white"
               onClick={handleNavClick}
             >
               {link.label}
-            </a>
+            </Link>
           ))}
           <Link
             href="/contact"
@@ -101,7 +102,7 @@ function Navbar() {
           </Link>
         </nav>
 
-        <div className="ml-8 flex shrink-0 items-center gap-4">
+        <div className="flex shrink-0 items-center gap-4">
           <button
             type="button"
             className="rounded-md border border-white/20 px-2 py-2 text-[0.9rem] font-bold text-white/80 transition-colors hover:text-white"

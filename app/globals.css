@@ -153,6 +153,7 @@
   }
   html {
     @apply scroll-smooth font-sans;
+    scroll-padding-top: 100px;
   }
   body {
     @apply overflow-x-hidden bg-brand-surface text-brand-text;

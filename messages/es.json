@@ -6,10 +6,11 @@
     "contactDesc": "Ponte en contacto con nuestro equipo y descubre cómo ADDSPOT puede transformar tu operación de Valet Parking."
   },
   "navbar": {
-    "features": "Pilares Operativos",
-    "modules": "Roles del Sistema",
-    "howItWorks": "Ciclo de Vida",
+    "features": "Pilares",
+    "modules": "Roles",
+    "howItWorks": "Proceso",
     "benefits": "Competencia",
+    "presentation": "Presentación",
     "requestDemo": "Solicitar Demo",
     "language": "EN"
   },
@@ -262,5 +263,17 @@
       "phone": "Por favor ingresa un número de teléfono válido.",
       "submit": "Algo salió mal. Intenta de nuevo o contáctanos directamente."
     }
+  },
+  "easyVideo": {
+    "badge": "Video Explicativo",
+    "title": "Conoce ADDSPOT en 2 minutos",
+    "subtitle": "Descubre cómo nuestra plataforma transforma por completo la operación de tu valet parking."
+  },
+  "presentation": {
+    "title1": "Demostración de",
+    "title2": "ADDSPOT",
+    "subtitle": "Elige la presentación que mejor se adapte a tu perfil.",
+    "tabEasy": "Resumen Ejecutivo (10 seg)",
+    "tabTech": "Detalle Técnico (2 min)"
   }
 }
