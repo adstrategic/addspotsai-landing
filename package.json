@@ -50,5 +50,6 @@
     "overrides": {
       "@hookform/resolvers>zod": "^4.4.3"
     }
-  }
+  },
+  "packageManager": "pnpm@11.1.1"
 }
